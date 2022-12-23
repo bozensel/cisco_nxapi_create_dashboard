@@ -67,18 +67,8 @@ nxapi_label.place(y=10, x=410, width=550, height=750)
 nxapi_label1_entry = customtkinter.CTkLabel(master=nxapi_frame, text="show vlan brief")
 nxapi_label1_entry.place(y=10, x=20)
 
-nxapi_entry1 = customtkinter.CTkTextbox(master=nxapi_frame)
-nxapi_entry1.grid(row=200, column=20)
-nxapi_entry1.place(y=50, x=25, width=510, height=750)
-nxapi_entry1.insert("0.0", message1)
-
 nxapi_label1_entry = customtkinter.CTkLabel(master=nxapi_frame, text="show ip int brief")
 nxapi_label1_entry.place(y=10, x=420)
-
-nxapi_entry1 = customtkinter.CTkTextbox(master=nxapi_frame)
-nxapi_entry1.grid(row=200, column=20)
-nxapi_entry1.place(y=50, x=425, width=510, height=750)
-nxapi_entry1.insert("0.0", message2)
 
 customtkinter.set_appearance_mode("dark")
 
